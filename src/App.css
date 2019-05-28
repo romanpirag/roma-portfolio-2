@@ -25,18 +25,20 @@ body {
 }
 
 a {
-  color: rgb(64, 93, 100);
+  color:grey;
   text-decoration: none;
+  margin-bottom: 0;
 }
 
 a:hover,
 a:active {
-  color: rgb(241, 89, 63);
+  color: aqua;
+  margin-bottom: 0;
 }
 
 header {
   opacity: 0.9;
-  background: #697887;
+  background:#2E343B;
   border-bottom: 1px solid black;
   display: flex;
   position: fixed;
@@ -58,10 +60,12 @@ h1 {
 }
 
 h2 {
+  width: 50%;
   font-size: 2rem;
-  margin: 0px;
-  color: rgb(79, 122, 151);
+  margin-bottom: 10px;
+  color:white;
   border-bottom: 1px solid rgb(105, 105, 105);
+  border-color: white;
 }
 
 h1,
@@ -85,11 +89,12 @@ p {
   text-align: center;
 }
 
-.roma-topright {
+.roma-topleft {
   font-size: 2rem;
   font-family: "Cormorant SC";
   cursor: default;
   margin-top: 5px;
+  color:#428BB2
 }
 
 /* ---------------------------------TOP INFO TOP INFO TOP INFO ------------------*/
@@ -103,6 +108,7 @@ p {
 }
 
 .romanpirag {
+  opacity: .9;
   color: white;
   margin-left: -4px;
 }
@@ -112,7 +118,7 @@ p {
   background: black; */
   font-size: 1.4rem;
   margin-top: 15px;
-  color: #B83E3E
+  color: grey
 }
 
 .bio {
@@ -126,17 +132,23 @@ p {
 .projects-divider {
   width: 100%;
   margin-right: 100px;
+  
 }
 
 .project-container {
-  margin-top: 10px;
-  text-align: center;
+  margin-top: -600px;
+  text-align: left;
 }
 
 .project-description {
+  opacity: .9;
+  background: black;
+  width: 50%;
   font-size: 1.2rem;
   text-align: left;
-  margin: 0px 0 20px 0;
+  margin-left: 2px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .inner-description {
@@ -163,7 +175,7 @@ p {
 /* ------------------------PROJECTS PROJECTS PROJECTS PROJECTS------------------------------- */
 
 .project-link {
-  width: 100%;
+  width: 50%;
   box-shadow: 2px 2px 5px rgb(31, 31, 31);
   margin: 3px;
 }
@@ -175,13 +187,28 @@ p {
 
 /* ------------------------FOOTER------------------------------- */
 
+.contact-container {
+  opacity: .9;
+  background: black;
+  width: 30%;
+  margin: 20px;
+  margin-top: -300px;
+  color: white;
+  padding: 20px;
+}
+
+.contact-text {
+  margin-top: -35px;
+}
+
+
 footer {
   text-align: center;
 }
 
 .copyright {
   font-size: 1.2rem;
-  color: rgb(63, 81, 97);
+  color: white;
   font-family: "Cormorant SC";
   margin: 10px;
 }
@@ -219,12 +246,12 @@ html {
   left: 0;
 
   transform: translateZ(-1px) scale(1.5);
-  background-size: 100%;
+  background-size: 90%;
   z-index: -1;
 }
 
 .static {
-  margin-top: -100px;
+  margin-top: -200px;
   height: 100px;
   border-bottom: 2px solid black;
   border-top: 2px solid black;
@@ -234,15 +261,15 @@ html {
 }
 
 .bg1::after {
-  height: 75%;
-  border-bottom: 2px solid gray;
+  height: 100%;
+  /* border-bottom: 1px solid gray; */
   background-image: url("http://www.androidguys.com/wp-content/uploads/2016/01/new-york-city-background-black-and-white.jpg");
 }
 
 .bg2::after {
   height: 100%;
-  margin-top: 300px;
-  background-image: url("https://i.pinimg.com/originals/86/fa/60/86fa601d20823418320fb892bb8f551a.jpg");
+  margin-top: 350px;
+  background-image: url("https://i.imgur.com/jLRNV6v.jpg");
 }
 
 /* ------------------------------------------------------------Media Query */
@@ -257,7 +284,7 @@ html {
   .headline-container {
     display: flex;
     width: 200%;
-    margin-left: -620px;
+    margin-left: -690px;
     margin-top: -200px;
   }
   .bio {
