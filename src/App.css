@@ -1,33 +1,284 @@
-.App {
+/* -------------------------------------FONTS FONTS FONTS--------------------------------------------------------------- */
+
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Teko");
+@import url("https://fonts.googleapis.com/css?family=Oranienbaum");
+@import url("https://fonts.googleapis.com/css?family=Nixie+One|Oranienbaum");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+SC|Faster+One|Six+Caps|Wire+One");
+
+/* ---------------------------------------------------------------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: black;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 0;
+  display: block;
+  position: relative;
+}
+
+a {
+  color: rgb(64, 93, 100);
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: rgb(241, 89, 63);
+}
+
+header {
+  opacity: 0.9;
+  background: #697887;
+  border-bottom: 1px solid black;
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  /* justify-content: flex-end; */
+  justify-content: space-between;
+  height: 10%;
+  box-shadow: 2px 2px 5px rgb(31, 31, 31);
+  padding: 10px;
+}
+
+h1 {
+  color: rgb(63, 63, 63);
+  margin: 0.2rem;
+  font-size: 4.6rem;
+  line-height: 0.8;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0px;
+  color: rgb(79, 122, 151);
+  border-bottom: 1px solid rgb(105, 105, 105);
+}
+
+h1,
+h2 {
+  font-family: "Cormorant SC";
+  font-weight: normal;
+}
+
+p {
+  font-size: 1.25rem;
+}
+/* margin: top right bottom left */
+
+/* .main {
+  max-width: 960px;
+  margin: 80px auto 0 auto;
+  padding: 2rem;
+} */
+
+.top-info {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.roma-topright {
+  font-size: 2rem;
+  font-family: "Cormorant SC";
+  cursor: default;
+  margin-top: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* ---------------------------------TOP INFO TOP INFO TOP INFO ------------------*/
+
+.romaimage {
+  background: black;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 7px rgb(78, 78, 78);
+  margin-bottom: 20px;
+}
+
+.romanpirag {
+  color: white;
+  margin-left: -4px;
+}
+
+.frontend-text {
+  /* opacity: 0.8;
+  background: black; */
+  font-size: 1.4rem;
+  margin-top: 15px;
+  color: #B83E3E
+}
+
+.bio {
+  opacity: 0.8;
+  background: black;
+  color: white;
+  align-content: left;
+  overflow-wrap: break-word;
+}
+
+.projects-divider {
+  width: 100%;
+  margin-right: 100px;
+}
+
+.project-container {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.project-description {
+  font-size: 1.2rem;
+  text-align: left;
+  margin: 0px 0 20px 0;
+}
+
+.inner-description {
+  display: none;
+}
+
+.linkscontainer {
+  text-align: left;
+}
+
+/* --------------------LINKS LINKS LINKS ---------------------- */
+
+.social-link {
+  font-size: 3rem;
+  margin: 4px;
+}
+
+.social-link:hover {
+  transform: scale(1.1);
+  transition: all ease 500ms;
+  color: rgb(255, 87, 58);
+}
+
+/* ------------------------PROJECTS PROJECTS PROJECTS PROJECTS------------------------------- */
+
+.project-link {
+  width: 100%;
+  box-shadow: 2px 2px 5px rgb(31, 31, 31);
+  margin: 3px;
+}
+
+.project-link:hover {
+  transform: scale(1.02);
+  transition: all ease 500ms;
+}
+
+/* ------------------------FOOTER------------------------------- */
+
+footer {
+  text-align: center;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  color: rgb(63, 81, 97);
+  font-family: "Cormorant SC";
+  margin: 10px;
+}
+
+/* -----------------------------------------------------------------Parallax  */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+.section {
+  position: relative;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.static {
+  margin-top: -100px;
+  height: 100px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  border-color: black;
+  background: #697887;
+  color: black;
+}
+
+.bg1::after {
+  height: 75%;
+  border-bottom: 2px solid gray;
+  background-image: url("http://www.androidguys.com/wp-content/uploads/2016/01/new-york-city-background-black-and-white.jpg");
+}
+
+.bg2::after {
+  height: 100%;
+  margin-top: 300px;
+  background-image: url("https://i.pinimg.com/originals/86/fa/60/86fa601d20823418320fb892bb8f551a.jpg");
+}
+
+/* ------------------------------------------------------------Media Query */
+
+@media (min-width: 1024px) {
+  .bg1::after {
+    height: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  .top-info {
+    text-align: left;
+  }
+  .headline-container {
+    display: flex;
+    width: 200%;
+    margin-left: -620px;
+    margin-top: -200px;
+  }
+  .bio {
+    display: none;
+    /* font-size: 1.2rem;
+    max-width: 500px; */
+  }
+  .romaimage {
+    width: 250px;
+    height: 250px;
+  }
+  .headline {
+    margin-left: 2rem;
+  }
+  body {
+    background-size: 118%;
+  }
+  .inner-description {
+    display: inline;
+  }
+  .linkscontainer {
+    text-align: left;
   }
 }
