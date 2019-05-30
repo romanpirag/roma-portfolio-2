@@ -16,7 +16,10 @@ function MainPage() {
         <section class="section parallax bg2">
           <ProjectsPage />
         </section>
-          <Contact/>
+        <Contact />
+        <section className="copyright">
+          <h4>&copy; Roma all rights reserved 2019</h4>
+        </section>
       </main>
     </div>
   )

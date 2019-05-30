@@ -24,6 +24,7 @@ function Contact() {
           <a href="https://github.com/romanpirag">GitHub.com/romanpirag</a>
         </div>
       </section>
+      
     </div>
   )
 }

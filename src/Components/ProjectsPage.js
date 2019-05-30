@@ -5,7 +5,7 @@ class ProjectsPage extends React.Component {
     return (
       <section>
         <div className="project-container">
-          <h2>Projects</h2>
+          <h2 className="projects-header">Projects</h2>
           <a href="http://google.com">
             <img
               className="project-link"

@@ -25,7 +25,7 @@ body {
 }
 
 a {
-  color:grey;
+  color: grey;
   text-decoration: none;
   margin-bottom: 0;
 }
@@ -38,7 +38,7 @@ a:active {
 
 header {
   opacity: 0.9;
-  background:#2E343B;
+  background: #2e343b;
   border-bottom: 1px solid black;
   display: flex;
   position: fixed;
@@ -63,7 +63,7 @@ h2 {
   width: 50%;
   font-size: 2rem;
   margin-bottom: 10px;
-  color:white;
+  color: white;
   border-bottom: 1px solid rgb(105, 105, 105);
   border-color: white;
 }
@@ -90,11 +90,11 @@ p {
 }
 
 .roma-topleft {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: "Cormorant SC";
   cursor: default;
   margin-top: 5px;
-  color:#428BB2
+  color: #428bb2;
 }
 
 /* ---------------------------------TOP INFO TOP INFO TOP INFO ------------------*/
@@ -108,61 +108,39 @@ p {
 }
 
 .romanpirag {
-  opacity: .9;
+  opacity: 0.9;
   color: white;
   margin-left: -4px;
 }
 
 .frontend-text {
-  /* opacity: 0.8;
-  background: black; */
+  opacity: 0.8;
+  background: black;
   font-size: 1.4rem;
   margin-top: 15px;
-  color: grey
+  color: white;
 }
 
-.bio {
+/* .bio {
   opacity: 0.8;
   background: black;
   color: white;
   align-content: left;
   overflow-wrap: break-word;
-}
-
-.projects-divider {
-  width: 100%;
-  margin-right: 100px;
-  
-}
-
-.project-container {
-  margin-top: -600px;
-  text-align: left;
-}
-
-.project-description {
-  opacity: .9;
-  background: black;
-  width: 50%;
-  font-size: 1.2rem;
-  text-align: left;
-  margin-left: 2px;
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
+} */
 
 .inner-description {
   display: none;
 }
 
+/* --------------------LINKS LINKS LINKS ---------------------- */
+
 .linkscontainer {
   text-align: left;
 }
 
-/* --------------------LINKS LINKS LINKS ---------------------- */
-
 .social-link {
-  font-size: 3rem;
+  font-size: 2.8rem;
   margin: 4px;
 }
 
@@ -175,9 +153,8 @@ p {
 /* ------------------------PROJECTS PROJECTS PROJECTS PROJECTS------------------------------- */
 
 .project-link {
-  width: 50%;
+  width: 100%;
   box-shadow: 2px 2px 5px rgb(31, 31, 31);
-  margin: 3px;
 }
 
 .project-link:hover {
@@ -185,14 +162,33 @@ p {
   transition: all ease 500ms;
 }
 
+/* .projects-divider {
+  width: 100%;
+  margin-right: 100px;
+} */
+
+.projects-header {
+  background: black;
+  opacity: 0.9;
+  width: 100%;
+}
+
+.project-container {
+  margin-top: -450px;
+  text-align: left;
+}
+
+.project-description {
+  display: none;
+}
+
 /* ------------------------FOOTER------------------------------- */
 
 .contact-container {
-  opacity: .9;
+  opacity: 0.9;
   background: black;
-  width: 30%;
-  margin: 20px;
-  margin-top: -300px;
+  width: 100%;
+  margin-top: -450px;
   color: white;
   padding: 20px;
 }
@@ -201,16 +197,19 @@ p {
   margin-top: -35px;
 }
 
-
-footer {
+/* footer {
   text-align: center;
-}
+  color: white;
+  bottom: 0;
+} */
 
 .copyright {
+  opacity: 0.9;
+  width: 100%;
+  background: black;
   font-size: 1.2rem;
   color: white;
   font-family: "Cormorant SC";
-  margin: 10px;
 }
 
 /* -----------------------------------------------------------------Parallax  */
@@ -246,7 +245,7 @@ html {
   left: 0;
 
   transform: translateZ(-1px) scale(1.5);
-  background-size: 90%;
+  background-size: 400%;
   z-index: -1;
 }
 
@@ -261,20 +260,24 @@ html {
 }
 
 .bg1::after {
-  height: 100%;
+  height: 90%;
   /* border-bottom: 1px solid gray; */
   background-image: url("http://www.androidguys.com/wp-content/uploads/2016/01/new-york-city-background-black-and-white.jpg");
 }
 
 .bg2::after {
-  height: 100%;
-  margin-top: 350px;
+  height: 60%;
+  margin-top: 200px;
   background-image: url("https://i.imgur.com/jLRNV6v.jpg");
 }
 
 /* ------------------------------------------------------------Media Query */
 
 @media (min-width: 1024px) {
+  body {
+    background-size: 118%;
+  }
+
   .bg1::after {
     height: 100%;
   }
@@ -299,13 +302,104 @@ html {
   .headline {
     margin-left: 2rem;
   }
-  body {
-    background-size: 118%;
-  }
+
   .inner-description {
     display: inline;
   }
+
   .linkscontainer {
     text-align: left;
+  }
+
+  .roma-topleft {
+    font-size: 2rem;
+    font-family: "Cormorant SC";
+    cursor: default;
+    margin-top: 5px;
+    color: #428bb2;
+  }
+
+  .social-link {
+    font-size: 3rem;
+    margin: 4px;
+  }
+
+  .parallax::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    transform: translateZ(-1px) scale(1.5);
+    background-size: 90%;
+    z-index: -1;
+  }
+
+  .project-container {
+    margin-top: -600px;
+    text-align: left;
+  }
+
+  .project-link {
+    width: 50%;
+    box-shadow: 2px 2px 5px rgb(31, 31, 31);
+    /* margin: 3px; */
+  }
+
+  .frontend-text {
+    color: white;
+    background: none;
+  }
+
+  .project-description {
+    opacity: 0.9;
+    background: black;
+    width: 50%;
+    font-size: 1.2rem;
+    text-align: left;
+    /* margin-left: 2px; */
+    margin-top: 0px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .contact-container {
+    margin: 20px;
+    opacity: 0.9;
+    background: black;
+    width: 48.5%;
+    margin-top: -300px;
+    color: white;
+    padding: 10px;
+  }
+
+  .bg1::after {
+    height: 100%;
+    /* border-bottom: 1px solid gray; */
+    background-image: url("http://www.androidguys.com/wp-content/uploads/2016/01/new-york-city-background-black-and-white.jpg");
+  }
+
+  .bg2::after {
+    height: 60%;
+    margin-top: 290px;
+    background-image: url("https://i.imgur.com/jLRNV6v.jpg");
+  }
+
+  .projects-header {
+    background: black;
+    opacity: 0.9;
+    width: 50%;
+  }
+
+  .copyright {
+    opacity: 0.9;
+    width: 48.5%;
+    background: black;
+    font-size: 1.2rem;
+    color: white;
+    font-family: "Cormorant SC";
+    margin-left: 20px;
   }
 }

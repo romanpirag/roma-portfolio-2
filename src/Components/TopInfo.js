@@ -15,12 +15,12 @@ class TopInfo extends React.Component {
             <div className="frontend-text">
               Full Stack Developer / Creative Technologist
             </div>
-            <p className="bio">
+            {/* <p className="bio">
               Software developer with a passion for creating compelling
               interactive user experiences and visual designs. Combining
               JavaScript, React, Ruby on Rails experience with a background
               in videography, graphic design and music production.
-            </p>
+            </p> */}
           </div>
         </div>
       </section>
