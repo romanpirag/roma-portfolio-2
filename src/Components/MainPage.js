@@ -2,6 +2,7 @@ import React from "react"
 import TopInfo from "./TopInfo"
 import ProjectsPage from "./ProjectsPage"
 import Contact from "./Contact"
+import Blogs from "./Blogs"
 
 function MainPage() {
   return (
@@ -15,6 +16,10 @@ function MainPage() {
         </section> */}
         <section class="section parallax bg2">
           <ProjectsPage />
+        </section>
+       
+        <section class="section parallax bg3">
+          <Blogs />
         </section>
         <Contact />
         <section className="copyright">

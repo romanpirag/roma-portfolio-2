@@ -5,6 +5,9 @@ class ProjectsPage extends React.Component {
     return (
       <section>
         <div className="project-container">
+          <div className="divider">
+            <h1>Projects</h1>
+          </div>
           <h2 className="projects-header">Projects</h2>
           <a href="http://google.com">
             <img

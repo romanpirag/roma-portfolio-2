@@ -12,7 +12,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 16px; 
 }
 
 body {
@@ -77,13 +77,12 @@ h2 {
 p {
   font-size: 1.25rem;
 }
-/* margin: top right bottom left */
 
-/* .main {
-  max-width: 960px;
-  margin: 80px auto 0 auto;
-  padding: 2rem;
-} */
+.divider {
+  display: none;
+}
+
+/* ---------------------------------TOP INFO TOP INFO TOP INFO ------------------*/
 
 .top-info {
   text-align: center;
@@ -96,8 +95,6 @@ p {
   margin-top: 5px;
   color: #428bb2;
 }
-
-/* ---------------------------------TOP INFO TOP INFO TOP INFO ------------------*/
 
 .romaimage {
   background: black;
@@ -162,11 +159,6 @@ p {
   transition: all ease 500ms;
 }
 
-/* .projects-divider {
-  width: 100%;
-  margin-right: 100px;
-} */
-
 .projects-header {
   background: black;
   opacity: 0.9;
@@ -177,18 +169,22 @@ p {
   margin-top: -450px;
   text-align: left;
 }
+.blogs-container {
+  margin-top: -800px;
+  text-align: left;
+}
 
 .project-description {
   display: none;
 }
 
-/* ------------------------FOOTER------------------------------- */
+/* ------------------------CONTACT AND FOOTER------------------------------- */
 
 .contact-container {
   opacity: 0.9;
   background: black;
   width: 100%;
-  margin-top: -450px;
+  margin-top: -700px;
   color: white;
   padding: 20px;
 }
@@ -196,12 +192,6 @@ p {
 .contact-text {
   margin-top: -35px;
 }
-
-/* footer {
-  text-align: center;
-  color: white;
-  bottom: 0;
-} */
 
 .copyright {
   opacity: 0.9;
@@ -212,7 +202,7 @@ p {
   font-family: "Cormorant SC";
 }
 
-/* -----------------------------------------------------------------Parallax  */
+/* -----------------------------------------------------------------Parallax Parallax Parallax 🌀🌀🌀 */
 
 body,
 html {
@@ -261,14 +251,14 @@ html {
 
 .bg1::after {
   height: 90%;
-  /* border-bottom: 1px solid gray; */
   background-image: url("http://www.androidguys.com/wp-content/uploads/2016/01/new-york-city-background-black-and-white.jpg");
 }
 
 .bg2::after {
-  height: 60%;
-  margin-top: 200px;
+  height: 30%;
+  margin-top: 130px;
   background-image: url("https://i.imgur.com/jLRNV6v.jpg");
+  
 }
 
 /* ------------------------------------------------------------Media Query */
@@ -278,9 +268,6 @@ html {
     background-size: 118%;
   }
 
-  .bg1::after {
-    height: 100%;
-  }
   .top-info {
     text-align: left;
   }
@@ -324,20 +311,12 @@ html {
     margin: 4px;
   }
 
-  .parallax::after {
-    content: " ";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-
-    transform: translateZ(-1px) scale(1.5);
-    background-size: 90%;
-    z-index: -1;
+  .project-container {
+    margin-top: -600px;
+    text-align: left;
   }
 
-  .project-container {
+  .blogs-container {
     margin-top: -600px;
     text-align: left;
   }
@@ -345,7 +324,6 @@ html {
   .project-link {
     width: 50%;
     box-shadow: 2px 2px 5px rgb(31, 31, 31);
-    /* margin: 3px; */
   }
 
   .frontend-text {
@@ -359,7 +337,6 @@ html {
     width: 50%;
     font-size: 1.2rem;
     text-align: left;
-    /* margin-left: 2px; */
     margin-top: 0px;
     margin-bottom: 20px;
     display: block;
@@ -370,20 +347,32 @@ html {
     opacity: 0.9;
     background: black;
     width: 48.5%;
-    margin-top: -300px;
+    margin-top: -250px;
     color: white;
     padding: 10px;
   }
 
+  .parallax::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    transform: translateZ(-1px) scale(1.5);
+    background-size: 120%;
+    z-index: -1;
+  }
+
   .bg1::after {
-    height: 100%;
-    /* border-bottom: 1px solid gray; */
+    height: 125%;
     background-image: url("http://www.androidguys.com/wp-content/uploads/2016/01/new-york-city-background-black-and-white.jpg");
   }
 
   .bg2::after {
-    height: 60%;
-    margin-top: 290px;
+    height: 78%;
+    margin-top: 580px;
     background-image: url("https://i.imgur.com/jLRNV6v.jpg");
   }
 
@@ -401,5 +390,19 @@ html {
     color: white;
     font-family: "Cormorant SC";
     margin-left: 20px;
+  }
+
+  .divider {
+    opacity: 0.9;
+    display: block;
+    background: black;
+    margin-top: -400px;
+    width: 50%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+  }
+
+  .projects-header {
+    display: none;
   }
 }
