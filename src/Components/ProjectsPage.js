@@ -10,7 +10,11 @@ class ProjectsPage extends React.Component {
           </div>
           <h2 className="projects-header">Development</h2>
 
-          <a target="_blank" rel="noopener noreferrer" href="http://google.com">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://outerbrainstudios.netlify.com/"
+          >
             <img
               className="project-link"
               src="https://i.imgur.com/H4gmm4Q.png"
@@ -26,7 +30,11 @@ class ProjectsPage extends React.Component {
               Videgame development studio
             </span>
           </p>
-          <a target="_blank" rel="noopener noreferrer" href="http://google.com">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://habitrack-app.herokuapp.com/"
+          >
             <img
               className="project-link"
               src="https://i.imgur.com/i4DUMH0.png"
@@ -40,7 +48,11 @@ class ProjectsPage extends React.Component {
             </span>
             <span className="small-app-description">Skill tracker app</span>
           </p>
-          <a target="_blank" rel="noopener noreferrer" href="http://google.com">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://soundscape.netlify.com/"
+          >
             <img
               className="project-link"
               src="https://i.imgur.com/DX8UKNe.png"
