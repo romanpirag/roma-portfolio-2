@@ -17,13 +17,17 @@ function MainPage() {
         <section class="section parallax bg2">
           <ProjectsPage />
         </section>
-       
+
         <section class="section parallax bg3">
           <Blogs />
         </section>
-        <Contact />
+        <section>
+          <Contact />
+        </section>
         <section className="copyright">
-          <h4>&copy; Roma all rights reserved 2019</h4>
+          <article>
+            <h4>&copy; Roma all rights reserved 2019</h4>
+          </article>
         </section>
       </main>
     </div>

@@ -3,7 +3,7 @@ import React from "react"
 class TopInfo extends React.Component {
   render() {
     return (
-      <section className="top-info">
+      <article className="top-info">
         <div className="headline-container">
           <img
             className="romaimage"
@@ -23,7 +23,7 @@ class TopInfo extends React.Component {
             </p> */}
           </div>
         </div>
-      </section>
+      </article>
     )
   }
 }

@@ -3,7 +3,7 @@ import React from "react"
 class Blogs extends React.Component {
   render() {
     return (
-      <section>
+      <article>
         <div className="blogs-container">
           <div className="divider">
             <div>Technical Blogs</div>
@@ -22,11 +22,8 @@ class Blogs extends React.Component {
             />
           </a>
           <p className="project-description">
-            {" "}
-            <strong>[code]Zombie #1: </strong>{" "}
-            <span className="blog-description">
-              Intro to Classes (Ruby)
-            </span>
+            <strong>[code]Zombie #1: </strong>
+            <span className="blog-description">Intro to Classes (Ruby)</span>
           </p>
 
           <a
@@ -86,7 +83,7 @@ class Blogs extends React.Component {
             </span>
           </p>
         </div>
-      </section>
+      </article>
     )
   }
 }

@@ -41,7 +41,7 @@ a:active {
 
 header {
   border-bottom: 1px solid black;
-  background: rgb(31, 54, 65, .9);
+  background: rgb(31, 54, 65, 0.9);
   display: flex;
   position: fixed;
   top: 0;
@@ -87,7 +87,7 @@ p {
 
 .top-info {
   text-align: center;
-  margin-left: -40px;
+  margin-top: 120px;
 }
 
 .roma-topleft {
@@ -101,8 +101,6 @@ p {
 .romaimage {
   width: 250px;
   height: 250px;
-  margin-bottom: 20px;
-  margin-left: 30px;
 }
 
 .romanpirag {
@@ -169,11 +167,11 @@ p {
 }
 
 .project-container {
-  margin-top: -300px;
+  /* margin-top: -300px; */
   text-align: left;
 }
 .blogs-container {
-  margin-top: -500px;
+  /* margin-top: -500px; */
   text-align: left;
 }
 
@@ -185,8 +183,7 @@ p {
   font-size: 1.2rem;
   text-align: left;
   margin-top: -4px;
-  margin-bottom: 20px;
-  display: block;
+  margin-bottom: 30px;
   padding: 10px;
 }
 
@@ -197,35 +194,29 @@ p {
 }
 
 .blog-description {
-    display: inline;
-    color: white;
-  }
+  display: inline;
+  color: white;
+}
 
 /* ------------------------CONTACT AND FOOTER------------------------------- */
 
 .contact-container {
+  display: flex;
   opacity: 0.9;
   background: black;
-  width: 100%;
-  margin-top: -300px;
+  justify-content: center;
   color: beige;
-  padding: 20px;
-  
-}
-
-.contact-text {
-  margin-top: -35px;
-  
 }
 
 .copyright {
+  display: flex;
+  justify-content: center;
   opacity: 0.9;
   width: 100%;
   background: black;
   font-size: 1.2rem;
   color: beige;
   font-family: "Cormorant SC";
-  margin-left: 40px;
 }
 
 /* -----------------------------------------------------------------Parallax Parallax Parallax 🌀🌀🌀 */
@@ -239,17 +230,18 @@ html {
 .wrapper {
   height: 100vh;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: auto; 
   perspective: 2px;
 }
 
 .section {
   position: relative;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: center;
   color: beige;
+  margin-bottom: 50px;
 }
 
 .parallax::after {
@@ -266,7 +258,7 @@ html {
 }
 
 .static {
-  margin-top: -200px;
+  /* margin-top: -200px; */
   height: 100px;
   border-bottom: 2px solid black;
   border-top: 2px solid black;
@@ -288,6 +280,10 @@ html {
   background-image: url("https://i.imgur.com/jLRNV6v.jpg");
 }
 
+.section.bg3 {
+  margin: 0;
+}
+
 /* ------------------------------------------------------------Media Query */
 
 @media (min-width: 1024px) {
@@ -295,23 +291,27 @@ html {
     background-size: 118%;
   }
 
+  .section {
+    margin-bottom: 100px;
+  }
+
+  article {
+    width: 60%;
+  }
   .top-info {
-    margin-top: -360px;
-    margin-left: -570px;
+    margin-top: 160px;
+    text-align: left;
+    /* margin-left: -570px; */
   }
 
   .headline-container {
-    /* display: flex; */
-    display: inline;
-    margin-left: -600px;
-  }
-  .headline {
-    margin-top: -280px;
-    margin-left: 200px;
+    display: flex;
+
+    /* margin-left: -600px; */
   }
 
   .frontend-text {
-    margin-top: -10px;
+    /* margin-top: -10px; */
     color: beige;
     background: none;
     width: 100%;
@@ -344,7 +344,7 @@ html {
     font-size: 2rem;
     font-family: "Cormorant SC";
     cursor: default;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     color: grey;
   }
 
@@ -354,17 +354,13 @@ html {
   }
 
   .project-container {
-    margin-top: -600px;
+    /* margin-top: -600px; */
     text-align: left;
   }
 
   .blogs-container {
-    margin-top: -400px;
+    /* margin-top: -400px; */
     text-align: left;
-  }
-
-  .project-link {
-    width: 60%;
   }
 
   .projects-header {
@@ -372,14 +368,7 @@ html {
   }
 
   .project-description {
-    color: beige;
-    background: rgb(92, 126, 141, 0.1);
-    width: 60%;
-    font-size: 1.2rem;
     text-align: left;
-    margin-top: -4px;
-    margin-bottom: 20px;
-    display: block;
     padding: 20px;
   }
 
@@ -389,16 +378,6 @@ html {
 
   .small-app-description {
     display: none;
-  }
-
-  .contact-container {
-    margin: 20px;
-    opacity: 0.9;
-    background: black;
-    width: 48.5%;
-    margin-top: -180px;
-    color: beige;
-    padding: 10px;
   }
 
   .parallax::after {
@@ -425,15 +404,7 @@ html {
     background-image: url("https://i.imgur.com/jLRNV6v.jpg");
   }
 
-  .copyright {
-    opacity: 0.9;
-    width: 48.5%;
-    background: black;
-    font-size: 1.2rem;
-    color: beige;
-    font-family: "Cormorant SC";
-    margin-left: 30px;
-  }
+
 
   .divider {
     font-size: 3rem;
@@ -445,7 +416,7 @@ html {
       rgb(92, 126, 141, 0.001),
       rgb(92, 126, 141, 0.2)
     );
-    margin-top: -400px;
+    /* margin-top: -400px; */
     width: 60%;
     margin-bottom: 20px;
     padding: 10px;
