@@ -270,14 +270,14 @@ html {
 .bg1::after {
   opacity: 0.2;
   height: 90%;
-  background-image: url("http://www.androidguys.com/wp-content/uploads/2016/01/new-york-city-background-black-and-white.jpg");
+  /* background-image: url("http://www.androidguys.com/wp-content/uploads/2016/01/new-york-city-background-black-and-white.jpg"); */
 }
 
 .bg2::after {
   opacity: 0.2;
   height: 100%;
   margin-top: 250px;
-  background-image: url("https://i.imgur.com/jLRNV6v.jpg");
+  /* background-image: url("https://i.imgur.com/jLRNV6v.jpg"); */
 }
 
 .section.bg3 {
@@ -394,13 +394,13 @@ html {
   }
 
   .bg1::after {
-    height: 125%;
+    height: 150%;
     background-image: url("http://www.androidguys.com/wp-content/uploads/2016/01/new-york-city-background-black-and-white.jpg");
   }
 
   .bg2::after {
-    height: 78%;
-    margin-top: 580px;
+    height: 100%;
+    margin-top: 500px;
     background-image: url("https://i.imgur.com/jLRNV6v.jpg");
   }
 
