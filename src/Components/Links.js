@@ -6,7 +6,7 @@ class Links extends React.Component {
       <div className="linkscontainer">
         <a
           className="social-link"
-          href="https://github.com/romabot"
+          href="https://github.com/romanpirag"
           target="_blank"
           rel="noopener noreferrer"
         >
