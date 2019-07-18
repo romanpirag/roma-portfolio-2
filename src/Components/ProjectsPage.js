@@ -33,7 +33,7 @@ class ProjectsPage extends React.Component {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://habitrack-app.herokuapp.com/"
+            href="https://habitrack.netlify.com/"
           >
             <img
               className="project-link"
