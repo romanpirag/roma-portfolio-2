@@ -15,11 +15,16 @@
 }
 
 html {
+  background: black;
   font-size: 16px;
 }
 
 body {
-  background: black;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(23, 32, 46));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size:100% auto;
+
   color: black;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding: 0;
@@ -51,6 +56,7 @@ header {
   justify-content: space-between;
   height: 10%;
   padding: 10px;
+  border-bottom: solid 2px rgb(50, 67, 88);
 }
 
 h1 {
@@ -95,7 +101,7 @@ p {
   font-family: "Cormorant SC";
   cursor: default;
   margin-top: 5px;
-  color: grey;
+  color: rgb(211, 189, 174);
 }
 
 .romaimage {
@@ -206,6 +212,7 @@ p {
   background: black;
   justify-content: center;
   color: beige;
+  border-top: solid 2px rgb(68, 88, 117);
 }
 
 .copyright {
@@ -345,7 +352,6 @@ html {
     font-family: "Cormorant SC";
     cursor: default;
     /* margin-top: 5px; */
-    color: grey;
   }
 
   .social-link {
