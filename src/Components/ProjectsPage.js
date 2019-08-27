@@ -9,27 +9,6 @@ class ProjectsPage extends React.Component {
             <div>Development</div>
           </div>
           <h2 className="projects-header">Development</h2>
-
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://outerbrainstudios.netlify.com/"
-          >
-            <img
-              className="project-link"
-              src="https://i.imgur.com/H4gmm4Q.png"
-              alt="Outer Brain Website"
-            />
-          </a>
-          <p className="project-description">
-            <strong>Outer Brain:</strong>
-            <span className="inner-description">
-              Website for a Video Game Development Studio
-            </span>
-            <span className="small-app-description">
-              Videgame development studio
-            </span>
-          </p>
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -48,6 +27,27 @@ class ProjectsPage extends React.Component {
             </span>
             <span className="small-app-description">Skill tracker app</span>
           </p>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://outerbrainstudios.netlify.com/"
+          >
+            <img
+              className="project-link"
+              src="https://i.imgur.com/H4gmm4Q.png"
+              alt="Outer Brain Website"
+            />
+          </a>
+          <p className="project-description">
+            <strong>Outer Brain:</strong>
+            <span className="inner-description">
+              Website for a Video Game Development Studio
+            </span>
+            <span className="small-app-description">
+              Videogame development studio
+            </span>
+          </p>
+
           <a
             target="_blank"
             rel="noopener noreferrer"

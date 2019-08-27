@@ -7,18 +7,18 @@ import Blogs from "./Blogs"
 function MainPage() {
   return (
     <div>
-      <main class="wrapper">
-        <section className="section parallax bg1">
+      <main>
+        <section className="section">
           <TopInfo />
         </section>
         {/* <section class="section static">
           <h1>PROJECTS</h1>
         </section> */}
-        <section class="section parallax bg2">
+        <section class="section">
           <ProjectsPage />
         </section>
 
-        <section class="section parallax bg3">
+        <section class="section">
           <Blogs />
         </section>
         <section>

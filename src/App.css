@@ -20,10 +20,9 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(23, 32, 46));
-  background-size: cover;
+  background: linear-gradient(to right,rgb(0, 0, 0), rgb(90, 0, 0));
   background-repeat: no-repeat;
-  background-size:100% auto;
+  background-attachment: fixed;
 
   color: black;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -126,14 +125,6 @@ p {
   margin-left: 20px;
 }
 
-/* .bio {
-  opacity: 0.8;
-  background: black;
-  color: white;
-  align-content: left;
-  overflow-wrap: break-word;
-} */
-
 .inner-description {
   display: none;
 }
@@ -226,20 +217,6 @@ p {
   font-family: "Cormorant SC";
 }
 
-/* -----------------------------------------------------------------Parallax Parallax Parallax 🌀🌀🌀 */
-
-body,
-html {
-  margin: 0;
-  padding: 0;
-}
-
-.wrapper {
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto; 
-  perspective: 2px;
-}
 
 .section {
   position: relative;
@@ -251,52 +228,10 @@ html {
   margin-bottom: 50px;
 }
 
-.parallax::after {
-  content: " ";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-  transform: translateZ(-1px) scale(1.5);
-  background-size: 400%;
-  z-index: -1;
-}
-
-.static {
-  /* margin-top: -200px; */
-  height: 100px;
-  border-bottom: 2px solid black;
-  border-top: 2px solid black;
-  border-color: black;
-  background: #697887;
-  color: black;
-}
-
-.bg1::after {
-  opacity: 0.2;
-  height: 90%;
-  /* background-image: url("http://www.androidguys.com/wp-content/uploads/2016/01/new-york-city-background-black-and-white.jpg"); */
-}
-
-.bg2::after {
-  opacity: 0.2;
-  height: 100%;
-  margin-top: 250px;
-  /* background-image: url("https://i.imgur.com/jLRNV6v.jpg"); */
-}
-
-.section.bg3 {
-  margin: 0;
-}
-
 /* ------------------------------------------------------------Media Query */
 
 @media (min-width: 1024px) {
-  body {
-    background-size: 118%;
-  }
+
 
   .section {
     margin-bottom: 100px;
@@ -385,31 +320,6 @@ html {
   .small-app-description {
     display: none;
   }
-
-  .parallax::after {
-    content: " ";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-
-    transform: translateZ(-1px) scale(1.5);
-    background-size: 120%;
-    z-index: -1;
-  }
-
-  .bg1::after {
-    height: 150%;
-    /* background-image: url("http://www.androidguys.com/wp-content/uploads/2016/01/new-york-city-background-black-and-white.jpg"); */
-  }
-
-  .bg2::after {
-    height: 100%;
-    margin-top: 500px;
-    /* background-image: url("https://i.imgur.com/jLRNV6v.jpg"); */
-  }
-
 
 
   .divider {
