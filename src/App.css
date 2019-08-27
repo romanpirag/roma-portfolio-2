@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  background: linear-gradient(to right,rgb(0, 0, 0), rgb(90, 0, 0));
+  background: repeating-linear-gradient(45deg,rgb(143, 0, 0)50px, rgb(148, 0, 136)60px);
   background-repeat: no-repeat;
   background-attachment: fixed;
 
