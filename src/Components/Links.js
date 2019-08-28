@@ -14,7 +14,7 @@ class Links extends React.Component {
         </a>
         <a
           className="social-link"
-          href="https://www.linkedin.com/in/roma-pirag-690979172/"
+          href="https://www.linkedin.com/in/romanpirag/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -22,7 +22,7 @@ class Links extends React.Component {
         </a>
         <a
           className="social-link"
-          href="https://www.linkedin.com/in/roma-pirag-690979172/"
+          href="https://medium.com/@romabot"
           target="_blank"
           rel="noopener noreferrer"
         >
