@@ -166,11 +166,9 @@ p {
 }
 
 .project-container {
-  /* margin-top: -300px; */
   text-align: left;
 }
 .blogs-container {
-  /* margin-top: -500px; */
   text-align: left;
 }
 
@@ -238,17 +236,13 @@ p {
   .top-info {
     margin-top: 160px;
     text-align: left;
-    /* margin-left: -570px; */
   }
 
   .headline-container {
     display: flex;
-
-    /* margin-left: -600px; */
   }
 
   .frontend-text {
-    /* margin-top: -10px; */
     color: beige;
     background: none;
     width: 100%;
@@ -256,8 +250,6 @@ p {
 
   .bio {
     display: none;
-    /* font-size: 1.2rem;
-    max-width: 500px; */
   }
   .romaimage {
     width: 250px;
