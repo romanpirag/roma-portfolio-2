@@ -157,9 +157,7 @@ p {
 }
 
 .project-link:hover {
-  transform: scale(1.01);
-
-   border: solid 2px rgb(255, 38, 0)
+   border: solid 2px rgb(211, 211, 211)
 }
 
 .projects-header {
@@ -224,7 +222,6 @@ p {
 
 .section {
   position: relative;
-  /* height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -234,10 +231,7 @@ p {
 
 /* ------------------------------------------------------------Media Query */
 
-@media (min-width: 1024px) {
-  .section {
-    /* margin-bottom: 100px; */
-  }
+
 
   article {
     width: 60%;
@@ -338,4 +332,4 @@ p {
     margin-bottom: 20px;
     padding: 10px;
   }
-}
+
