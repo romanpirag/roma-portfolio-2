@@ -8,6 +8,28 @@ class ProjectsPage extends React.Component {
           <div className="divider">
             <div>Development</div>
           </div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://neonflix.netlify.com/"
+          >
+            <img
+              className="project-link"
+              src="https://i.imgur.com/1lhVqD7.png"
+              alt="Habitrack"
+            />
+          </a>
+          <p className="project-description">
+            <strong>Habitrack:</strong>
+            <span className="inner-description">
+              Neon city inspired skill tracker app
+            </span>
+            <span className="small-app-description">Skill tracker app</span>
+          </p>
+
+          <div className="divider">
+            <div>Development</div>
+          </div>
           <h2 className="projects-header">Development</h2>
           <a
             target="_blank"
