@@ -8,6 +8,11 @@
 
 /* ---------------------------------------------------------------------------------------------------- */
 
+h1,
+h2 {
+  font-family: Teko;
+  font-weight: normal;
+}
 
 * {
   box-sizing: border-box;
@@ -19,14 +24,14 @@ html {
 }
 
 body {
-  background: linear-gradient(45deg,rgb(0, 52, 77),rgb(13, 15, 34)30%, transparent),
-  repeating-linear-gradient(45deg, rgb(0, 44, 70), rgb(0, 78, 114)150px); 
+
+  background: linear-gradient(45deg, rgba(26, 37, 39, 0), rgba(36, 98, 117, 0.39));
 
   background-repeat: no-repeat;
   background-attachment: fixed;
 
   color: black;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Teko, Cochin, Georgia, Times, "Times New Roman", serif;
   padding: 0;
   display: block;
   position: relative;
@@ -75,11 +80,7 @@ h2 {
   border-color: white;
 }
 
-h1,
-h2 {
-  font-family: "Cormorant SC";
-  font-weight: normal;
-}
+
 
 p {
   font-size: 1.25rem;
@@ -98,7 +99,7 @@ p {
 
 .roma-topleft {
   font-size: 1.8rem;
-  font-family: "Cormorant SC";
+  font-family: "Teko";
   cursor: default;
   margin-top: 5px;
   color: rgb(211, 189, 174);
@@ -150,12 +151,15 @@ p {
 /* ------------------------PROJECTS PROJECTS PROJECTS PROJECTS-------------------------------🍕🍕🍕 */
 
 .project-link {
+  border: solid 2px rgb(0, 0, 0);
   width: 100%;
+  box-shadow: 4px 4px 2px rgb(0, 0, 0);
 }
 
 .project-link:hover {
-  transform: scale(1.02);
-  transition: all ease 500ms;
+  transform: scale(1.01);
+
+   border: solid 2px rgb(255, 38, 0)
 }
 
 .projects-header {
@@ -215,7 +219,7 @@ p {
   background: black;
   font-size: 1.2rem;
   color: beige;
-  font-family: "Cormorant SC";
+  font-family: "Teko";
 }
 
 .section {
@@ -232,7 +236,7 @@ p {
 
 @media (min-width: 1024px) {
   .section {
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
   }
 
   article {
@@ -282,7 +286,7 @@ p {
 
   .roma-topleft {
     font-size: 2rem;
-    font-family: "Cormorant SC";
+    font-family: "Teko";
     cursor: default;
     /* margin-top: 5px; */
   }
@@ -321,7 +325,7 @@ p {
 
   .divider {
     font-size: 3rem;
-    font-family: "Cormorant SC";
+    font-family: "Teko";
     opacity: 0.9;
     display: block;
     background-image: linear-gradient(

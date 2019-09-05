@@ -19,17 +19,13 @@ class ProjectsPage extends React.Component {
               alt="Habitrack"
             />
           </a>
-          <p className="project-description">
+          {/* <p className="project-description">
             <strong>Habitrack:</strong>
             <span className="inner-description">
               Neon city inspired skill tracker app
             </span>
             <span className="small-app-description">Skill tracker app</span>
-          </p>
-
-          <div className="divider">
-            <div>Development</div>
-          </div>
+          </p> */}
           <h2 className="projects-header">Development</h2>
           <a
             target="_blank"
@@ -42,13 +38,13 @@ class ProjectsPage extends React.Component {
               alt="Habitrack"
             />
           </a>
-          <p className="project-description">
+          {/* <p className="project-description">
             <strong>Habitrack:</strong>
             <span className="inner-description">
               Neon city inspired skill tracker app
             </span>
             <span className="small-app-description">Skill tracker app</span>
-          </p>
+          </p> */}
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -60,7 +56,7 @@ class ProjectsPage extends React.Component {
               alt="Outer Brain Website"
             />
           </a>
-          <p className="project-description">
+          {/* <p className="project-description">
             <strong>Outer Brain:</strong>
             <span className="inner-description">
               Website for a Video Game Development Studio
@@ -68,7 +64,7 @@ class ProjectsPage extends React.Component {
             <span className="small-app-description">
               Videogame development studio
             </span>
-          </p>
+          </p> */}
 
           <a
             target="_blank"
@@ -81,13 +77,13 @@ class ProjectsPage extends React.Component {
               alt="SoundScape"
             />
           </a>
-          <p className="project-description">
+          {/* <p className="project-description">
             <strong>Soundscape:</strong>
             <span className="inner-description">
               Journal app which uses sound instead of words
             </span>
             <span className="small-app-description">Sound journal app</span>
-          </p>
+          </p> */}
         </div>
       </article>
     )
