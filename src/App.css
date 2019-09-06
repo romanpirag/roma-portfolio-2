@@ -12,7 +12,6 @@ h1,
 h2 {
   font-family: Teko;
   font-weight: normal;
-
 }
 
 * {
@@ -25,10 +24,7 @@ html {
 }
 
 body {
-
-  background-image: linear-gradient(-155deg, #1f1f1f 0%, #155869 100%);
-  
-
+  background-image: url("https://wallpaperaccess.com/full/202978.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
 
@@ -80,8 +76,6 @@ h2 {
   color: white;
   border-color: white;
 }
-
-
 
 p {
   font-size: 1.25rem;
@@ -158,7 +152,7 @@ p {
 }
 
 .project-link:hover {
-   border: solid 2px rgb(211, 211, 211)
+  border: solid 2px rgb(211, 211, 211);
 }
 
 .projects-header {
@@ -230,99 +224,96 @@ p {
 
 /* ------------------------------------------------------------Media Query */
 
+article {
+  width: 60%;
+}
+.top-info {
+  margin-top: 160px;
+  text-align: left;
+}
 
+.headline-container {
+  display: flex;
+}
 
-  article {
-    width: 60%;
-  }
-  .top-info {
-    margin-top: 160px;
-    text-align: left;
-  }
+.frontend-text {
+  color: beige;
+  background: none;
+  width: 100%;
+}
 
-  .headline-container {
-    display: flex;
-  }
+.bio {
+  display: none;
+}
+.romaimage {
+  width: 250px;
+  height: 250px;
+}
 
-  .frontend-text {
-    color: beige;
-    background: none;
-    width: 100%;
-  }
+.inner-description {
+  display: inline;
+  color: white;
+}
+.blog-description {
+  display: inline;
+  color: white;
+}
 
-  .bio {
-    display: none;
-  }
-  .romaimage {
-    width: 250px;
-    height: 250px;
-  }
+.linkscontainer {
+  text-align: left;
+}
 
-  .inner-description {
-    display: inline;
-    color: white;
-  }
-  .blog-description {
-    display: inline;
-    color: white;
-  }
+.roma-topleft {
+  font-size: 2rem;
+  font-family: "Teko";
+  cursor: default;
+  /* margin-top: 5px; */
+}
 
-  .linkscontainer {
-    text-align: left;
-  }
+.social-link {
+  font-size: 3rem;
+  margin: 4px;
+}
 
-  .roma-topleft {
-    font-size: 2rem;
-    font-family: "Teko";
-    cursor: default;
-    /* margin-top: 5px; */
-  }
+.project-container {
+  /* margin-top: -600px; */
+  text-align: left;
+}
 
-  .social-link {
-    font-size: 3rem;
-    margin: 4px;
-  }
+.blogs-container {
+  /* margin-top: -400px; */
+  text-align: left;
+}
 
-  .project-container {
-    /* margin-top: -600px; */
-    text-align: left;
-  }
+.projects-header {
+  display: none;
+}
 
-  .blogs-container {
-    /* margin-top: -400px; */
-    text-align: left;
-  }
+.project-description {
+  text-align: left;
+  padding: 20px;
+}
 
-  .projects-header {
-    display: none;
-  }
+.programs-used {
+  color: aqua;
+}
 
-  .project-description {
-    text-align: left;
-    padding: 20px;
-  }
+.small-app-description {
+  display: none;
+}
 
-  .programs-used {
-    color: aqua;
-  }
-
-  .small-app-description {
-    display: none;
-  }
-
-  .divider {
-    font-size: 3rem;
-    font-family: "Teko";
-    opacity: 0.9;
-    display: block;
-    background-image: linear-gradient(
-      to left,
-      rgb(92, 126, 141, 0.001),
-      rgb(92, 126, 141, 0.2)
-    );
-    /* margin-top: -400px; */
-    width: 60%;
-    margin-bottom: 20px;
-    padding: 10px;
-  }
-
+.divider {
+  font-size: 3rem;
+  font-family: "Teko";
+  opacity: 0.9;
+  display: block;
+  background-image: linear-gradient(
+    to left,
+    rgb(92, 126, 141, 0.001),
+    rgb(92, 126, 141, 0.2)
+  );
+  /* margin-top: -400px; */
+  width: 60%;
+  margin-bottom: 20px;
+  padding: 10px;
+}

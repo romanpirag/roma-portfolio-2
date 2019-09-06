@@ -11,9 +11,6 @@ function MainPage() {
         <section className="section">
           <TopInfo />
         </section>
-        {/* <section class="section static">
-          <h1>PROJECTS</h1>
-        </section> */}
         <section class="section">
           <ProjectsPage />
         </section>
@@ -21,9 +18,11 @@ function MainPage() {
         <section class="section">
           <Blogs />
         </section>
+
         <section>
           <Contact />
         </section>
+        
         <section className="copyright">
           <article>
             <h4>&copy; Roma all rights reserved 2019</h4>
