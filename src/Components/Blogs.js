@@ -17,14 +17,10 @@ class Blogs extends React.Component {
           >
             <img
               className="project-link"
-              src="https://i.imgur.com/fFf6KWh.png"
+              src="https://i.imgur.com/5Sz1VMF.png"
               alt="Outer Brain Website"
             />
           </a>
-          <p className="project-description">
-            <strong>[code]Zombie #1: </strong>
-            <span className="blog-description">Intro to Classes (Ruby)</span>
-          </p>
 
           <a
             target="_blank"
@@ -33,17 +29,10 @@ class Blogs extends React.Component {
           >
             <img
               className="project-link"
-              src="https://i.imgur.com/N2mwo7Y.png"
+              src="https://i.imgur.com/RM2yGiR.png"
               alt="Outer Brain Website"
             />
           </a>
-          <p className="project-description">
-            {" "}
-            <strong>[code]Zombie #2: </strong>{" "}
-            <span className="blog-description">
-              How to avoid burnout & survive the learning curve
-            </span>
-          </p>
 
           <a
             target="_blank"
@@ -52,17 +41,10 @@ class Blogs extends React.Component {
           >
             <img
               className="project-link"
-              src="https://i.imgur.com/RBi4Ote.png"
+              src="https://i.imgur.com/tNBSRru.png"
               alt="Outer Brain Website"
             />
           </a>
-          <p className="project-description">
-            {" "}
-            <strong>[code]Zombie #3: </strong>{" "}
-            <span className="blog-description">
-              CSS for the living dead(part 1)
-            </span>
-          </p>
 
           <a
             target="_blank"
@@ -71,17 +53,10 @@ class Blogs extends React.Component {
           >
             <img
               className="project-link"
-              src="https://i.imgur.com/TWHgCXO.png"
+              src="https://i.imgur.com/sNeDsJN.png"
               alt="Outer Brain Website"
             />
           </a>
-          <p className="project-description">
-            {" "}
-            <strong>[code]Zombie #4: </strong>{" "}
-            <span className="blog-description">
-              CSS for the living dead(part 2)
-            </span>
-          </p>
         </div>
       </article>
     )
