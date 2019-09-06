@@ -147,6 +147,7 @@ p {
 .project-link {
   border: solid 2px rgb(0, 0, 0);
   width: 100%;
+ 
   box-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
 
@@ -161,10 +162,13 @@ p {
 }
 
 .project-container {
+  width: 800px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
+
 .blogs-container {
+  width: 800px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
@@ -215,7 +219,7 @@ p {
 }
 
 .section {
-  position: relative;
+  /* position: relative; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -225,15 +229,14 @@ p {
 
 /* ------------------------------------------------------------Media Query */
 
-article {
-  width: 60%;
-}
+
 .top-info {
   margin-top: 160px;
   text-align: left;
 }
 
 .headline-container {
+  width: 800px;
   display: grid;
   justify-content: left;
 }
@@ -282,7 +285,6 @@ article {
 
 .project-container {
   /* margin-top: -600px; */
-  text-align: left;
 }
 
 .blogs-container {
