@@ -12,6 +12,7 @@ class Links extends React.Component {
         >
           <i className="fab fa-github-square" />
         </a>
+
         <a
           className="social-link"
           href="https://www.linkedin.com/in/romanpirag/"
@@ -20,6 +21,7 @@ class Links extends React.Component {
         >
           <i className="fab fa-linkedin" />
         </a>
+
         <a
           className="social-link"
           href="https://medium.com/@romabot"
@@ -28,6 +30,7 @@ class Links extends React.Component {
         >
           <i className="fab fa-medium" />
         </a>
+        
       </div>
     )
   }

@@ -6,31 +6,23 @@ import Blogs from "./Blogs"
 
 function MainPage() {
   return (
-    <div>
+    <>
       <main>
         <section className="section">
           <TopInfo />
         </section>
 
-        <section class="section">
-          <ProjectsPage />
-        </section>
+        {/* <ProjectsPage />
 
-        <section className="section">
-          <Blogs />
-        </section>
+        <Blogs />
 
-        <section>
-          <Contact />
-        </section>
+        <Contact /> */}
 
-        <section className="copyright">
-          <article>
-            <h4>&copy; Roma all rights reserved 2019</h4>
-          </article>
-        </section>
+        {/* <article className="copyright">
+          <h4>&copy; Roma all rights reserved 2019</h4>
+        </article> */}
       </main>
-    </div>
+    </>
   )
 }
 

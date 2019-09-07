@@ -3,7 +3,6 @@ import React from "react"
 class TopInfo extends React.Component {
   render() {
     return (
-      <article className="top-info">
         <div className="headline-container">
           <img
             className="romaimage"
@@ -23,7 +22,6 @@ class TopInfo extends React.Component {
               in videography, graphic design and music production.
             </p> */}
         </div>
-      </article>
     )
   }
 }

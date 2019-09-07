@@ -10,8 +10,8 @@ import Links from './Components/Links'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div className="roma-topleft">||||Roman Pirag||||</div>
+      <header>
+        <div className="roma-topleft">||||Roma||||</div>
         <Links />
       </header>
       <main>

@@ -8,6 +8,18 @@
 
 /* ---------------------------------------------------------------------------------------------------- */
 
+.headline-container {
+  display: grid;
+}
+
+.fab {
+  display: block;
+}
+
+main {
+  height: 100%;
+}
+
 h1,
 h2 {
   font-family: Teko;
@@ -19,15 +31,13 @@ h2 {
 }
 
 html {
-  background: black;
+  background-image: url("https://wallpaperaccess.com/full/202978.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-size: 16px;
 }
 
 body {
-  background-image: url("https://wallpaperaccess.com/full/202978.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
   color: black;
   font-family: Teko, Cochin, Georgia, Times, "Times New Roman", serif;
   padding: 0;
@@ -36,6 +46,7 @@ body {
 }
 
 a {
+  
   color: white;
   text-decoration: none;
   margin-bottom: 0;
@@ -57,15 +68,22 @@ header {
   width: 100%;
   /* justify-content: flex-end; */
   justify-content: space-between;
+  align-items: center;
   height: 10%;
-  padding: 10px;
+  padding: 5px;
   border-bottom: solid 2px rgb(50, 67, 88);
 }
 
 h1 {
   color: white;
-  font-size: 4rem;
+  font-size: 4.5rem;
   margin: 0;
+}
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
 }
 
 h2 {
@@ -86,31 +104,37 @@ p {
 
 /* ---------------------------------TOP INFO TOP INFO TOP INFO ------------------*/
 
-
-
 .roma-topleft {
   font-size: 1.8rem;
   font-family: "Teko";
-  cursor: default;
-  margin-top: 5px;
   color: rgb(211, 189, 174);
+  position: relative;
+  top: 3px;
 }
 
 .romaimage {
-  width: 250px;
-  height: 250px;
+  width: 100%;
+  padding: 10px;
 }
 
 .romanpirag {
   border-width: 5px;
   opacity: 0.9;
   color: white;
+  text-align: center;
+}
 
-  grid-column: 2/3;
-  grid-row: 1/2;
-  
-  align-items: start;
-  
+@media (min-width: 800px) {
+  .romanpirag {
+    border-width: 5px;
+    opacity: 0.9;
+    color: white;
+
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+    align-items: start;
+  }
 }
 
 .frontend-text {
@@ -121,33 +145,28 @@ p {
   margin: 0;
 }
 
+@media (min-width: 800px) {
+  .frontend-text {
+    font-size: 1.4rem;
+  }
+}
+
 .inner-description {
   display: none;
 }
 
 /* --------------------LINKS LINKS LINKS ---------------------- */
 
-.linkscontainer {
-  text-align: left;
-}
 
-.social-link {
-  font-size: 2.8rem;
-  margin: 4px;
-}
 
-.social-link:hover {
-  transform: scale(1.1);
-  transition: all ease 500ms;
-  color: rgb(255, 87, 58);
-}
+
 
 /* ------------------------PROJECTS PROJECTS PROJECTS PROJECTS-------------------------------🍕🍕🍕 */
 
 .project-link {
   border: solid 2px rgb(0, 0, 0);
   width: 100%;
- 
+
   box-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
 
@@ -224,38 +243,54 @@ p {
   align-items: center;
   justify-content: center;
   color: beige;
-  margin-bottom: 50px;
+  width: 100%;
+  margin-top: 100px;
 }
 
-/* ------------------------------------------------------------Media Query */
+@media (min-width: 800px) {
+  .section {
+  margin-top: 200px;
+}
 
-
-.top-info {
-  margin-top: 160px;
-  text-align: left;
 }
 
 .headline-container {
-  width: 800px;
-  display: grid;
-  justify-content: left;
+  width: 100%;
+  display: block;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 800px) {
+  .headline-container {
+    width: auto;
+    display: grid;
+    justify-content: left;
+    grid-column: 3/7;
+    grid-row: 2/7;
+  }
 }
 
 .frontend-text {
   color: beige;
   grid-column: 2/3;
   grid-row: 2/3;
-
 }
 
 .bio {
   display: none;
 }
 .romaimage {
-  width: 250px;
-  height: 250px;
-  grid-column: 1/2;
-  grid-row: 1/3; 
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 800px) {
+  .romaimage {
+    width: 250px;
+    height: 250px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
 }
 
 .inner-description {
@@ -268,19 +303,28 @@ p {
 }
 
 .linkscontainer {
-  text-align: left;
+  display: flex;
+  align-content: center;
 }
 
-.roma-topleft {
-  font-size: 2rem;
-  font-family: "Teko";
-  cursor: default;
-  /* margin-top: 5px; */
-}
+
 
 .social-link {
-  font-size: 3rem;
-  margin: 4px;
+  font-size: 2rem;
+  margin: 2px;
+}
+
+@media (min-width: 800px) {
+  .social-link {
+    font-size: 2.8rem;
+    margin: 4px;
+  }
+}
+
+.social-link:hover {
+  transform: scale(1.1);
+  transition: all ease 500ms;
+  color: rgb(255, 87, 58);
 }
 
 .project-container {
