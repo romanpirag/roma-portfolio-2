@@ -11,10 +11,10 @@ function MainPage() {
         <section className="top-section">
           <TopInfo />
         </section>
-        <section className="section">
+        <section>
           <ProjectsPage />
         </section>
-        <section className="section">
+        <section>
           <Blogs />
         </section>
         {/* <section>

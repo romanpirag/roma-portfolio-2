@@ -160,7 +160,6 @@ p {
 }
 
 .project-link:hover {
-  display: block;
   border: solid 2px rgb(211, 211, 211);
 }
 
@@ -242,7 +241,7 @@ p {
   }
 }
 
-.section {
+section {
   /* position: relative; */
   display: flex;
   align-items: center;
@@ -260,7 +259,7 @@ p {
 }
 
 @media (min-width: 800px) {
-  .section {
+  section {
     margin-top: 50px;
   }
 }
