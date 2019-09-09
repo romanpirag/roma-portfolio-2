@@ -8,7 +8,7 @@ function MainPage() {
   return (
     <>
       <main>
-        <section className="section">
+        <section className="top-section">
           <TopInfo />
         </section>
         <section className="section">
