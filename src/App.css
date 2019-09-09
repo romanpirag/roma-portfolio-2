@@ -9,7 +9,13 @@
 /* ---------------------------------------------------------------------------------------------------- */
 
 .headline-container {
-  display: grid;
+  text-align: center;
+}
+
+@media (min-width: 800) {
+  .headline-container {
+    display: grid;
+  }
 }
 
 .fab {
@@ -46,7 +52,6 @@ body {
 }
 
 a {
-  
   color: white;
   text-decoration: none;
   margin-bottom: 0;
@@ -112,11 +117,6 @@ p {
   top: 3px;
 }
 
-.romaimage {
-  width: 100%;
-  padding: 10px;
-}
-
 .romanpirag {
   border-width: 5px;
   opacity: 0.9;
@@ -156,10 +156,6 @@ p {
 }
 
 /* --------------------LINKS LINKS LINKS ---------------------- */
-
-
-
-
 
 /* ------------------------PROJECTS PROJECTS PROJECTS PROJECTS-------------------------------🍕🍕🍕 */
 
@@ -249,9 +245,8 @@ p {
 
 @media (min-width: 800px) {
   .section {
-  margin-top: 200px;
-}
-
+    margin-top: 200px;
+  }
 }
 
 .headline-container {
@@ -272,8 +267,15 @@ p {
 
 .frontend-text {
   color: beige;
-  grid-column: 2/3;
-  grid-row: 2/3;
+  text-align: center;
+}
+
+@media (min-width: 800) {
+  .fontend-text {
+    color: beige;
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
 }
 
 .bio {
@@ -282,6 +284,8 @@ p {
 .romaimage {
   width: 100%;
   height: 100%;
+  max-width: 300px;
+  padding: 10px;
 }
 
 @media (min-width: 800px) {
@@ -306,8 +310,6 @@ p {
   display: flex;
   align-content: center;
 }
-
-
 
 .social-link {
   font-size: 2rem;

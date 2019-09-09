@@ -12,8 +12,8 @@ function MainPage() {
           <TopInfo />
         </section>
 
-        {/* <ProjectsPage />
-
+        <ProjectsPage />
+{/* 
         <Blogs />
 
         <Contact /> */}
