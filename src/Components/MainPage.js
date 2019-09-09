@@ -11,9 +11,10 @@ function MainPage() {
         <section className="section">
           <TopInfo />
         </section>
-
-        <ProjectsPage />
-{/* 
+        <section className="section">
+          <ProjectsPage />
+        </section>
+        {/* 
         <Blogs />
 
         <Contact /> */}
