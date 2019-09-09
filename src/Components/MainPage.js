@@ -17,10 +17,8 @@ function MainPage() {
         <section>
           <Blogs />
         </section>
-        {/* <section>
-          <Blogs />
-        </section> */}
-        {/* <Contact /> */} */}
+        
+        <Contact /> 
         {/* <article className="copyright">
           <h4>&copy; Roma all rights reserved 2019</h4>
         </article> */}
