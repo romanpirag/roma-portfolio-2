@@ -24,10 +24,12 @@ h2 {
 }
 
 * {
+  
   box-sizing: border-box;
 }
 
 html {
+  background: black;
   background-image: url("https://wallpaperaccess.com/full/202978.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -76,7 +78,7 @@ h1 {
   margin: 0;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 767px) {
   h1 {
     font-size: 4rem;
   }
@@ -116,7 +118,7 @@ p {
   text-align: center;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 767px) {
   .romanpirag {
     border-width: 5px;
     opacity: 0.9;
@@ -152,13 +154,13 @@ p {
 }
 
 .project-container {
-  width: 800px;
+  width: 767px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
 
 .blogs-container {
-  width: 800px;
+  width: 767px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
@@ -192,16 +194,24 @@ p {
   display: flex;
   opacity: 0.9;
   background: black;
-  justify-content: left;
+  justify-content: center;
   color: beige;
   border-top: solid 2px rgb(68, 88, 117);
-  padding: 20px;
+  padding: 10px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 767px) {
   .contact-container {
     justify-content: center;
   }
+}
+
+.contact-text {
+  display: flex; 
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  width: 767px;
 }
 
 .copyright {
@@ -216,7 +226,7 @@ p {
 }
 
 .top-section {
-  margin-top: 120px;
+  margin-top: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -224,11 +234,13 @@ p {
   width: 100%;
 }
 
-@media (min-width: 800) {
+@media (min-width: 767px) {
   .top-section {
-    margin-top: 400px;
+    margin-top: 150px;
   }
 }
+
+
 
 section {
   /* position: relative; */
@@ -241,13 +253,13 @@ section {
 }
 
 .topbox {
-  width: 800px;
+  width: 767px;
   display: flex;
   justify-content: flex-start;
   margin: 0;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 767px) {
   section {
     margin-top: 50px;
   }
@@ -260,7 +272,7 @@ section {
   grid-template-columns: repeat(1, 1fr);
 }
 
-@media (min-width: 800px) {
+@media (min-width: 767px) {
   .headline-container {
     width: auto;
     display: grid;
@@ -287,7 +299,7 @@ section {
   margin: 0;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 767px) {
   .frontend-text {
     font-size: 1.4rem;
     color: beige;
@@ -307,7 +319,7 @@ section {
   /* padding: 10px; */
 }
 
-@media (min-width: 800px) {
+@media (min-width: 767px) {
   .romaimage {
     grid-column: 1/2;
     grid-row: 1/3;
@@ -333,7 +345,7 @@ section {
   margin: 2px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 767px) {
   .social-link {
     font-size: 2.8rem;
     margin: 4px;
@@ -382,7 +394,7 @@ section {
   text-align: center;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 767px) {
   .divider {
     font-size: 3rem;
     font-family: "Teko";
