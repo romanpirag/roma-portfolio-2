@@ -23,6 +23,12 @@ function Contact() {
           <strong>GitHub:</strong>{" "}
           <a href="https://github.com/romanpirag">GitHub.com/romanpirag</a>
         </div>
+        <div>
+          <strong>Resume:</strong>{" "}
+          <a href="https://drive.google.com/file/d/1ItH7v8lM-nxVRUY2Yfw_YPkRPtQOts4w/view">
+            Resumelink
+          </a>
+        </div>
       </article>
     </div>
   )
