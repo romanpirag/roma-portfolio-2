@@ -356,7 +356,7 @@ p {
 }
 
 .divider {
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: "Teko";
   opacity: 0.9;
   display: block;
@@ -366,7 +366,25 @@ p {
     rgb(92, 126, 141, 0.2)
   );
   /* margin-top: -400px; */
-  width: 60%;
   margin-bottom: 20px;
   padding: 10px;
+  text-align: center; 
+}
+
+@media (min-width: 800px) {
+  .divider {
+    font-size: 3rem;
+    font-family: "Teko";
+    opacity: 0.9;
+    display: block;
+    background-image: linear-gradient(
+      to left,
+      rgb(92, 126, 141, 0.001),
+      rgb(92, 126, 141, 0.2)
+    );
+    /* margin-top: -400px; */
+    width: 60%;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
 }
