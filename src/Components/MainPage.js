@@ -14,11 +14,13 @@ function MainPage() {
         <section className="section">
           <ProjectsPage />
         </section>
-        {/* 
-        <Blogs />
-
-        <Contact /> */}
-
+        <section className="section">
+          <Blogs />
+        </section>
+        {/* <section>
+          <Blogs />
+        </section> */}
+        {/* <Contact /> */} */}
         {/* <article className="copyright">
           <h4>&copy; Roma all rights reserved 2019</h4>
         </article> */}

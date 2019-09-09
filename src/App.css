@@ -156,11 +156,11 @@ p {
 .project-link {
   border: solid 2px rgb(0, 0, 0);
   width: 100%;
-
   box-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
 
 .project-link:hover {
+  display: block;
   border: solid 2px rgb(211, 211, 211);
 }
 

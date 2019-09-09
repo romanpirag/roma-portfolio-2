@@ -7,8 +7,6 @@ class ProjectsPage extends React.Component {
         
             <div className="divider">Development</div>
           
-          
-
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -58,7 +56,6 @@ class ProjectsPage extends React.Component {
               />
             </a>
       
-        
         </div>
     )
   }
