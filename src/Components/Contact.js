@@ -7,7 +7,7 @@ function Contact() {
         <h2>Contact</h2>
         <div>
           <strong>Email:</strong>{" "}
-          <a href="mailto:mr.romanpirag@gmail.com">mr.romanpirag@gmail.com</a>
+          <a href="mailto:romanpirag@gmail.com">romanpirag@gmail.com</a>
         </div>
         <div>
           <strong>Phone:</strong>{" "}
