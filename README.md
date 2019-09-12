@@ -1,4 +1,4 @@
-![Roman Pirag Portfolio](https://i.imgur.com/d4Obknk.png)
+![Roman Pirag Portfolio](https://i.imgur.com/5ELk2TB.png)
 
 FULL STACK WEB DEVELOPER --
 
