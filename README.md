@@ -2,7 +2,7 @@
 
 FULL STACK WEB DEVELOPER --
 
-New York, NY • 917-498-9177 • romanpirag@gmail.com  romanpirag.com  github.com/romanpirag
+New York, NY • 917-498-9177 • romanpirag@gmail.com 
 
 Frontend focused Full Stack developer with a passion for creating compelling interactive user experiences and visual designs. Combining JavaScript, React, Ruby on Rails experience with a background in videography, motion graphics and music production, I strive to use my creativity and eye for detail to help innovative companies build exceptional product experiences. My positive attitude is infectious, and I am in my element when collaborating with a motivated, talented team to find creative solutions to hard problems.
 
