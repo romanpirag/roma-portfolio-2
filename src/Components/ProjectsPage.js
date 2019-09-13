@@ -38,7 +38,7 @@ class ProjectsPage extends React.Component {
         >
           <img
             className="project-link"
-            src="https://i.imgur.com/1lhVqD7.png"
+            src="https://i.imgur.com/WL1FF3N.png"
             alt="Habitrack"
           />
         </a>
