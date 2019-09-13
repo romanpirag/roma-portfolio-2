@@ -16,6 +16,8 @@ class TopInfo extends React.Component {
             Full Stack Developer / Creative Technologist
           </p>
 
+          <img className="skill-logos"src="https://i.imgur.com/j4FVilB.png" alt="Skill logos" />
+
           {/* <p className="bio">
               Software developer with a passion for creating compelling
               interactive user experiences and visual designs. Combining

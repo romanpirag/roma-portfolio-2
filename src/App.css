@@ -135,6 +135,12 @@ p {
   display: none;
 }
 
+.skill-logos {
+  max-width: 200px;
+  margin: 0;
+  grid-rows: 
+}
+
 /* ------------------------PROJECTS PROJECTS PROJECTS PROJECTS-------------------------------🍕🍕🍕 */
 
 .project-link {
