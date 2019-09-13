@@ -38,7 +38,7 @@ class ProjectsPage extends React.Component {
         >
           <img
             className="project-link"
-            src="https://i.imgur.com/FvOwuEk.png"
+            src="https://i.imgur.com/dWVjOM7.png"
             alt="NeonFlix"
           />
         </a>
