@@ -14,18 +14,5 @@ Fluent Languages:
 
 English || Russian
 
-## Contact
 
-Send all comments and suggestions to romanpirag@gmail.com
-
-Connect with me on LinkedIn: 
-https://www.linkedin.com/in/romanpirag/
-
-Personal portfolio: 
-https://www.romanpirag.com 
-
-Resume: 
-https://drive.google.com/file/d/1ItH7v8lM-nxVRUY2Yfw_YPkRPtQOts4w/view
-
-Thanks for viewing! 🙌
 
