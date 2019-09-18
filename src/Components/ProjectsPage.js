@@ -50,7 +50,7 @@ class ProjectsPage extends React.Component {
         >
           <img
             className="project-link"
-            src="https://i.imgur.com/DX8UKNe.png"
+            src="https://i.imgur.com/1FWCb2W.png"
             alt="SoundScape"
           />
         </a>
