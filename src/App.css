@@ -74,7 +74,7 @@ header {
 
 h1 {
   color: white;
-  font-size: 4.5rem;
+  font-size: 5.1rem;
   margin: 0;
 }
 
@@ -116,6 +116,7 @@ p {
   opacity: 0.9;
   color: white;
   text-align: center;
+  margin:8px;
 }
 
 @media (min-width: 767px) {
@@ -387,7 +388,7 @@ section {
 }
 
 .divider {
-  font-size: 2.5rem;
+  font-size: 3.2rem;
   font-family: "Teko";
   opacity: 0.9;
   display: block;
