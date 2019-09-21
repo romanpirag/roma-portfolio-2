@@ -16,6 +16,10 @@ English || Russian
 
 ## Contact
 
+Send all comments and suggestions to romanpirag@gmail.com
+
+Connect with me on LinkedIn: 
+https://www.linkedin.com/in/romanpirag/
 
 Personal portfolio: 
 https://www.romanpirag.com 
