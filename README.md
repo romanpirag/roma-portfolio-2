@@ -1,6 +1,4 @@
-![Roman Pirag Portfolio](https://i.imgur.com/5ELk2TB.png)
 
-FRONT END FOCUSED FULL STACK WEB DEVELOPER --
 
 New York, NY • 917-498-9177 • romanpirag@gmail.com 
 
